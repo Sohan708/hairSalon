@@ -1,0 +1,396 @@
+@media screen and (min-width: 1024px) {
+    #firstview>img {
+        width: 964;
+        height: 1300px;
+    }
+    #firstview {
+        margin-top: 80px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .swtxt {
+        overflow: hidden;
+        height: 355px;
+        font-size: 40px;
+        text-align: center;
+        background-color: rgb(255, 235, 41, 57%);
+        padding: 50px 30px;
+        color: #4F4F50;
+        font-weight: bold;
+        margin: -135px auto;
+        width: 700px;
+        position: relative;
+        z-index: 1;
+        font-family: "BIZ UDPMincho";
+        line-height: 75px;
+    }
+    .button a {
+        z-index: 60;
+        border-radius: 90px;
+        background-color: #4F4F50;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+        font-size: 30px;
+        font-family: "HGSMinchoE", sans-serif;
+        color: #FFF;
+        padding: 30px 60px;
+    }
+    .main_bun {
+        display: block;
+        position: relative;
+        width: 600px;
+        padding: 15px 0;
+        margin: 0 auto;
+        background-color: #4f4f50;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        overflow: hidden;
+        font-family: "HGMinchoB", sans-serif;
+    }
+    #about {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 135px 0px;
+        height: auto;
+        overflow: hidden;
+    }
+    .about_box {
+        overflow: hidden;
+        height: auto;
+        margin-top: -20px;
+    }
+    .about_card01,
+    .about_card02 {
+        height: auto;
+        margin: 0 auto;
+        width: 850px;
+        overflow: hidden;
+    }
+    .about_card01 {
+        margin-bottom: 50px;
+    }
+    .about_en {
+        font-size: 50px;
+    }
+    .about_card01img,
+    .about_card02img {
+        height: 350px;
+        width: 450px;
+    }
+    .about_d_title1 {
+        font-size: 25px;
+        line-height: 50px;
+        letter-spacing: 0;
+        margin: 125px 0;
+        text-align: center;
+    }
+    .about_d_title2 {
+        font-size: 25px;
+        line-height: 50px;
+        letter-spacing: 0;
+        margin: 125px 0;
+        text-align: center;
+    }
+    .details_02>.details_img {
+        background-size: cover;
+    }
+    .about_d_body {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .pc-set {
+        overflow: hidden;
+        height: auto;
+        margin: 0 auto 50px;
+    }
+    .service_en {
+        font-size: 50px;
+    }
+    .service_details {
+        width: 70%; padding:0;
+    }
+    .details_02 {
+        opacity: 0;
+        transform: translate(0, 50px);
+        transition: all 1500ms;
+    }
+    .details_03 {
+        opacity: 0;
+        transform: translate(0, 50px);
+        transition: all 2500ms;
+    }
+    .details_01,
+    .details_02,
+    .details_03 {
+        float: left;
+        width: 31.2%;
+        margin: 0 10px;
+        text-align: center;
+        height: 400px;
+    }
+    .details_img {
+        max-width: 660px;
+        min-height: 300px;
+        text-align: center;
+    }
+    .details_p {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 25px 5px;
+        margin: 0;
+    }
+    .details_02 p {
+        text-align: center;
+        padding: 33px 30px;
+        font-size: 15px;
+        line-height: 43px;
+    }
+    .details_03 p {
+        text-align: center;
+        padding: 10px 30px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .recommend_title>p {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-family: "BIZ UDPMincho";
+    }
+    .recommend_title>hr {
+        padding: 1px;
+    }
+    #recommend {
+        height: auto;
+        overflow: hidden;
+    }
+    .recommend_img {
+        height: 400px;
+    }
+    .recommend_detail {
+        font-size: 20px;
+        padding: 0;
+        margin: 0 auto;
+        line-height: 40px;
+    }
+    #welcome {
+        max-width: 1000px;
+        padding: 0px 20px 0;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .welcome_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #welcome>hr {
+        padding: 1px;
+    }
+    .welcome {
+        height: auto;
+        margin: 50px auto;
+        width: 850px;
+        overflow: hidden;
+    }
+    .welcome_detail01,
+    .welcome_detail03 {
+        width: 400px;
+        float: left;
+        margin: 72px 0;
+    }
+    .welcome_detail02 {
+        width: 360px;
+        float: right;
+        margin: 72px 0;
+    }
+    .welcome_detail01>p,
+    .welcome_detail03>p {
+        font-size: 25px;
+        font-family: "BIZ UDPMincho";
+        line-height: 50px;
+        text-align: center;
+    }
+    .welcome_detail02>p {
+        font-size: 25px;
+        text-align: center;
+        font-family: "BIZ UDPMincho";
+        line-height: 50px;
+    }
+    .welcome_img01,
+    .welcome_img02,
+    .welcome_img03 {
+        width: 415px;
+        height: 295px;
+    }
+    .menu_border {
+        width: 800px;
+    }
+    .menu_title>hr {
+        padding: 1px;
+        margin-top: -25px;
+    }
+    .menutxt01 {
+        font-size: 20px;
+        line-height: 35px;
+        margin: 10px auto;
+    }
+    .t002 {
+        text-align: right;
+        float: right;
+        margin-right: -80px;
+    }
+    .menu_en {
+        font-size: 50px;
+        margin: 30px auto;
+    }
+    .menu_price {
+        font-size: 20px;
+        margin: 0 auto;
+        width: 600px;
+        line-height: 40px;
+    }
+    #word {
+        max-width: 1000px;
+        margin: 0 auto;
+        height: auto;
+        overflow: hidden;
+        padding: 30px 5px;
+    }
+    .word_en {
+        font-size: 50px;
+        margin: 50px auto;
+    }
+    .word_by_owner {
+        padding: 0 4%;
+        width: 42%;
+        float: left;
+    }
+    .word_by_owner>p {
+        text-align: left;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .word_img {
+        float: left;
+        width: 50%;
+        height: 300px;
+        background-position: 85%;
+    }
+    #contact {
+        padding: 130px 0 0;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .contact_en {
+        font-size: 50px;
+        margin: 50px auto;
+    }
+    .contact_detail {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .img_contact {
+        height: 450px;
+        width: 600px;
+    }
+    .ig-contact img {
+        width: 150px;
+        height: 150px;
+        margin-top: -75px;
+        margin-right: 100px;
+    }
+    .access {
+        font-size: 20px;
+        width: 640px;
+        line-height: 40px;
+    }
+    .map {
+        width: 100%;
+        margin: 0px auto 30px;
+    }
+    .apppart p {
+        text-align: center;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .download {
+        display: flex;
+        width: 690px;
+        margin: 0 auto;
+    }
+    .app {
+        width: 305px;
+        padding-top: 20px;
+    }
+    .google {
+        width: 350px;
+    }
+    .footer_main {
+        overflow: hidden;
+        height: auto;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .footer_main>p {
+        font-size: 30px;
+    }
+    .footer_main>img {
+        width: 90px;
+        float: left;
+        padding-top: 65px;
+    }
+    #staff {
+        width: 850px;
+        margin: 0 auto;
+    }
+    .staff_member {
+        height: 250px;
+        margin: 30px 5% 30px 10%;
+        text-align: center;
+    }
+    .staff_border img {
+        width: 566px;
+        margin: 75px 118px;
+        height: 352px;
+    }
+    .staff_border {
+        height: auto;
+        padding-bottom: 20px;
+        margin: 65px auto 0;
+        border: 5px solid #FFEB29;
+        width: 800px;
+        overflow: hidden;
+    }
+    .owner {
+        text-align: right;
+        width: 580px;
+        margin: 0 auto;
+    }
+    .oname {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .underline {
+        border-bottom: 4px solid #FFEB29;
+        width: 250px;
+        margin-left: 330px;
+    }
+    .otxt {
+        font-size: 25px;
+        margin: 10px 0;
+        line-height: 40px;
+    }
+    .ownermess {
+        overflow: hidden;
+        height: auto;
+        width: 500px;
+        margin: 0 auto;
+        font-size: 23px;
+        line-height: 40px;
+    }
+}

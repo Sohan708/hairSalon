@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156025115-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156025115-2');
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+
+    <title>YUTU HAIR SALON</title>
+    <link rel="stylesheet" href="css/smartphone.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="css/pc.css">
+
+    <!-- ファーストビューのスライドテンプレ_ここから -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- ファーストビューのスライドテンプレ_ここまで -->
+    <!-- ハンバーガーメニュー 自動開閉 -->
+    <script>
+        $(function() {
+            var ua = navigator.userAgent;
+            if ((ua.indexOf('iPhone') > 0 || ua.indexOf('Android') > 0) && ua.indexOf('Mobile') > 0) {
+                $(function() {
+                    $('.cp_menuicon').on('click', () => {
+                        $('.cp_offcm02').show();
+                    });
+                });
+
+                $(function() {
+                    $('.openButton').on('click', () => {
+                        $('.cp_offcm02').slideUp();
+                    });
+                });
+            }
+        })
+    </script>
+    <script language="Javascript">
+        function Click_Sub1(check) {
+            for (i = 0; i < document.all.cp_menuicon.length; i++) {
+                document.all.cp_menuicon[i].checked = check;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="to-top">
+    
+        <!-- header -->
+    
+        <div class="cp_cont"></div>
+        <div class="logo"></div>
+
+        <div class="menu_button">
+            <p class="button"><a href="#">Reservation</p></a>
+        </div>
+
+        <!-- ハンバーガーメニュー -->
+        <input name="cp_menuicon" type="checkbox" class="disply"><br>
+        <input type="checkbox" id="cp_toggle02" name="cp_menuicon">
+        <div class="cp_mobilebar">
+            <label for="cp_toggle02" class="cp_menuicon">
+					<span></span>
+				</label>
+        </div>
+        <header class="cp_offcm02">
+            <nav>
+                <ul class="pad">
+                    <li><a class="openButton" href="#firstview"><input type="button" onclick="Click_Sub1(false)" class="link_box"
+								value="TOP"></a></li>
+                    <li><a class="openButton" href="#about"><input type="button" onclick="Click_Sub1(false)" class="link_box"
+								value="ABOUT"></a></li>
+                    <li><a class="openButton" href="#service"><input type="button" onclick="Click_Sub1(false)" class="link_box"
+								value="FEATURE"></a></li>
+                    <li><a class="openButton" href="#menu"><input type="button" onclick="Click_Sub1(false)" class="link_box"
+								value="MENU"></a></li>
+                    <li><a class="openButton" href="#staff"><input type="button" onclick="Click_Sub1(false)" class="link_box"
+								value="MESSAGE"></a></li>
+                    <li><a class="openButton" href="#contact"><input type="button" onclick="Click_Sub1(false)" class="link_box"
+								value="CONTACT"></a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+    <!-- #header -->
+
+
+    <div id="firstview">
+        <!-- 画像サイズ：964*600 -->
+
+        <div class="swiper-container">
+            <!-- 全スライドをまとめるラッパー -->
+            <div class="swiper-wrapper">
+                <!-- 各スライド -->
+                <div class="swiper-slide"><img src="img/DSC_9426.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/DSC_9470.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/DSC_9657.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div class="firstview_pc">
+            <img src="img/DSC_9426@3x.png">
+            <img src="img/DSC_9470-pc.jpg">
+            <img src="img/DSC_9657-pc.jpg">
+        </div>
+
+
+
+        <!-- <div class="swword">
+            <p class="swtxt">六町駅徒歩5分、<br> ナチュラルでリラックスできる
+                <br> なりたい自分になれるサロン
+            </p>
+
+
+        </div> -->
+
+    </div>
+    <!-- #firstview -->
+
+    <div id="about">
+
+        <div class="about_title">
+            <p class="about_en">ABOUT</p>
+        </div>
+
+        <div class="about_box">
+
+            <div class="about_card01">
+                <div class="about_detail">
+                    <p class="about_d_title1">Lorem, ipsum dolor.<br> Lorem, ipsum.
+                    </p>
+                </div>
+                <div class="about_card01img"></div>
+            </div>
+
+            <div class="about_card02">
+                <div class="about_card02img"></div>
+                <div class="about_detail">
+                    <p class="about_d_title2">Lorem, ipsum.<br> Lorem, ipsum.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- #about -->
+
+    <div id="service">
+
+        <div class="service_title">
+            <p class="service_en">FEATURE</p>
+        </div>
+
+        <div class="pc-set">
+
+            <div class="details_01">
+                <!-- 画像のサイズ：864*380 -->
+                <div class="details_img"></div>
+                <p class="details_p">Lorem ipsum dolor sit.<br> Lorem ipsum dolor sit.
+                </p>
+            </div>
+            <div class="details_02">
+                <!-- 画像のサイズ：864*380 -->
+                <div class="details_img"></div>
+                <p class="details_p">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="details_03">
+                <!-- 画像のサイズ：864*380 -->
+                <div class="details_img"></div>
+                <p class="details_p">Lorem, ipsum dolor.<br> Lorem, ipsum dolor.
+                    <br> Lorem, ipsum dolor.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- #service -->
+
+    <div id="recommend">
+        <div class="recommend_title">
+            <p>Menu</p>
+            <hr>
+        </div>
+        <div class="recommend_bottom">
+            <p class="recommend_detail">Lorem ipsum dolor sit. 930<br> Lorem ipsum dolor sit amet. 800
+                <br> Lorem ipsum dolor sit. 2400
+            </p>
+        </div>
+        <div class="recommend_img">
+        </div>
+    </div>
+    <!-- #recommend -->
+
+    <div id="welcome">
+        <p class="welcome_title">Lorem ipsum dolor sit.<br> Lorem ipsum dolor sit.</p>
+        <hr>
+        <div class="welcome">
+            <div class="welcome_detail01">
+                <p>Lorem ipsum dolor sit.<br> Lorem, ipsum dolor.
+                </p>
+            </div>
+            <div class="welcome_img01">
+            </div>
+        </div>
+
+        <div class="welcome">
+            <div class="welcome_img02">
+            </div>
+            <div class="welcome_detail02">
+                <p>Lorem, ipsum.<br> Lorem, ipsum.
+                    <br> Lorem, ipsum.
+                </p>
+            </div>
+        </div>
+        <div class="welcome">
+            <div class="welcome_detail03">
+                <p>Lorem, ipsum dolor.<br> Lorem, ipsum dolor.
+                </p>
+            </div>
+            <div class="welcome_img03">
+            </div>
+        </div>
+
+    </div>
+    <!-- #welcome -->
+
+    <div id="reservation">
+        <a href="#" target="_blank" class="main_bun">Reservation</a>
+    </div>
+    <!-- #reservation -->
+
+
+    <div id="menu">
+
+        <div class="menu_border">
+            <div class="menu_title">
+                <p class="menu_en">MENU</p>
+                <hr>
+            </div>
+
+            <table class="menu_price">
+                <tr>
+                    <th class="t01">cut</th>
+                    <th class="t02">2000</th>
+                </tr>
+                <tr>
+                    <th class="t01">color</th>
+                    <th class="t02">1000</th>
+                </tr>
+                <tr>
+                    <th class="t01">pama</th>
+                    <th class="t02">3000</th>
+                </tr>
+                <tr>
+                    <th class="t01">ldodd</th>
+                    <th class="t02">3000</th>
+                </tr>
+                <tr>
+                    <th class="t01">laoaoka</th>
+                    <th class="t02">2000</th>
+                </tr>
+            </table>
+            <!-- <p class="menutxt01">*ミディアム＋¥1100　ロング＋¥2200になります。<br> *カットは長さ（レングス）関係なく一律料金になります。 -->
+            </p>
+
+            <table class="menu_price">
+                <tr>
+                    <th class="t01">others</th>
+                    <th class="t002"></th>
+                </tr>
+                <tr>
+                    <th class="t01">kjam</th>
+                    <th class="t002">4200</th>
+                </tr>
+                <tr>
+                    <th class="t01">garm</th>
+                    <th class="t002">3000</th>
+                </tr>
+                <tr>
+                    <th class="t01">loted</th>
+                    <th class="t002">1500</th>
+                </tr>
+                <tr>
+                    <th class="t01">dameded</th>
+                    <th class="t002">2000</th>
+                </tr>
+
+                <tr>
+                    <th class="t01">others</th>
+                    <th class="t002"></th>
+                </tr>
+                <tr>
+                    <th class="t01">vjid</th>
+                    <th class="t002">3000</th>
+                </tr>
+                <tr>
+                    <th class="t01">kajol</th>
+                    <th class="t002">2300</th>
+                </tr>
+                <tr>
+                    <th class="t01">namor</th>
+                    <th class="t002">1400</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+
+                <tr>
+                    <th class="t01">lalod</th>
+                    <th class="t002">2000</th>
+                </tr>
+
+
+            </table>
+
+        </div>
+        <!-- .menu_border -->
+
+    </div>
+    <!-- #menu -->
+
+
+
+
+
+
+
+    <div id="staff">
+        <div class="staff_border">
+
+            <img src="img/DSC_9485@2x.jpg">
+
+            <div class="owner">
+                <p class="oname">YUTU HAIR SALON</p>
+                <div class="underline"></div>
+                <!-- <p class="otxt">スタイリスト歴7年<br>美容師歴11年</p> -->
+            </div>
+
+            <div class="ownermess">
+                <p>
+                    In the hair<br> salon industry there are salon
+                    <br> services and retail products。<br>
+                    <br> that make up
+                    <br> the output. Because the services
+                    <br> generate most of the
+                    <br>
+                    <br> salon’s business that is what
+                </p>
+
+            </div>
+
+        </div>
+        <!-- .staff_border -->
+    </div>
+    <!-- #staff -->
+
+    <div id="reservation">
+        <a href="#" target="_blank" class="main_bun">Reservation</a>
+    </div>
+    <!-- #reservation -->
+
+
+
+    <div id="contact">
+
+        <div class="contact_title">
+            <p class="contact_en">CONTACT</p>
+        </div>
+
+        <div class="contact_detail">
+            <div class="copcset">
+                <div class="img_contact"></div>
+                <!-- <div class="ig-contact"><a href="ig.html" target="_blank"><img src="img/ig-logo.png"></a></div> -->
+            </div>
+            <table class="access">
+                <tr>
+                    <th class="t03">Phone Number</th>
+                    <th class="t04"><a href="tel:080-4461-0087">080-4461-0087</a></th>
+                </tr>
+                <tr>
+                    <th class="t03">Business Hours</th>
+                    <th class="t04">9：30～19：00</th>
+                </tr>
+                <tr>
+                    <th class="t03">Regular holiday</th>
+                    <th class="t04">Tuesday</th>
+                </tr>
+                <tr>
+                    <th class="t03">Address</th>
+                    <th class="t04">Tokyo, Toshima-ku, Ikebukuro 2-60-6</th>
+                </tr>
+                <tr>
+                    <!-- <th class="t03">アクセス</th> -->
+                    <!-- <th class="t04">A3出口を出るとライフ（スーパー） が見えます。信号を渡り左に。道な りにまっすぐいくと右側にマクドナ ルドが見えます。
+                        <br> マクドナルドを過ぎて一つ目の角を 右に曲がります。十字路をまた右に 曲がるとbe me HAIRです。
+                    </th> -->
+                </tr>
+
+            </table>
+            <div style="clear: both;"></div>
+            <div class="footer-upart">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.6542881888527!2d139.7068895143639!3d35.73471993464571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d5fa796ff0b%3A0x4482d5e8cecca84e!2s2-ch%C5%8Dme-60-6%20Ikebukuro%2C%20Toshima%20City%2C%20Tokyo%20171-0014!5e0!3m2!1sen!2sjp!4v1656311876475!5m2!1sen!2sjp"
+                        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+                <div class="apppart">
+                    <p>Lorem ipsum dolor sit<br>welcome my salon</p>
+                    <p>Lorem ipsum dolor sit<br>welcome my salon</p>
+                    <div class="download">
+                        <!-- <a href="https://apps.apple.com/jp/app/be-me-hair-%E3%83%93%E3%83%BC%E3%83%9F%E3%83%BC%E3%83%98%E3%82%A2/id1577298484?ign-mpt=uo%3D2"><img src="img/ogp-appstore-link.png" class="app"></a> -->
+                        <!-- <a href='https://play.google.com/store/apps/details?id=com.couponapp2.chain.tac17996'><img alt='Google Play で手に入れよう' src='https://play.google.com/intl/ja/badges/static/images/badges/ja_badge_web_generic.png'/ class="google"></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <!-- #contact -->
+
+
+    <div id="footer">
+        <div class="footer_main">
+            <!-- <img src="img/instagram-gray.png"> -->
+            <p>Almost 50 percent of workers<br> and salons average about
+            </p>
+        </div>
+    </div>
+
+    </div>
+    <!-- #container -->
+
+
+    <!-- ドロワーメニューの利用宣言 -->
+    <script>
+        $(document).ready(function() {
+            $('.drawer').drawer();
+        });
+    </script>
+
+    <!-- MENUボタンの表示・非表示 -->
+    <script type="text/javascript">
+        $(document).on('click', function(e) {
+            if (!$(e.target).closest('#menu_button').length) {
+                // ターゲット要素の外側をクリックした時の操作
+                $('#menu_button').slideDown();
+            } else {
+                // ターゲット要素をクリックした時の操作
+                $('#menu_button').slideUp();
+            }
+        });
+    </script>
+
+    <!-- スライド -->
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            // ここからオプション
+            loop: true,
+            speed: 500,
+            autoplay: {
+                delay: 5000,
+            },
+        })
+    </script>
+    <!-- 参考サイト -->
+    <!-- https://mdstage.com/web/javascript/how-to-use-swiper -->
+    <!-- https://digipress.info/tech/introducing-swiper-js/ -->
+
+    <script>
+        $(window).scroll(function() {
+            $('.details_02').each(function() {
+                var elemPos = $(this).offset().top,
+                    scroll = $(window).scrollTop(),
+                    windowHeight = $(window).height();
+                if (scroll > elemPos - windowHeight + 100) {
+                    $(this).addClass('scrollin');
+                }
+            });
+        });
+        $(window).scroll(function() {
+            $('.details_03').each(function() {
+                var elemPos = $(this).offset().top,
+                    scroll = $(window).scrollTop(),
+                    windowHeight = $(window).height();
+                if (scroll > elemPos - windowHeight + 100) {
+                    $(this).addClass('scrollin');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
